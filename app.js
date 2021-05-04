@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
 
     alert('Corals Quiz... are you ready?');
 
-    const wantsQuiz = confirm('ready to be quizzed?');
+    const wantsQuiz = confirm('Sure youre ready to be quizzed?');
     console.log('wants quiz', wantsQuiz);
 
     if (wantsQuiz === false) {
