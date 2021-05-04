@@ -21,11 +21,16 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
 }
-
+button {
+    margin: 20px;
+}
+img {
+    width: 700px;
+}
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
 }
